@@ -1,6 +1,7 @@
 import random as rd
+import os
 
-
+os.system('clear')
 question = input("What is your question?   ")
 
 number = rd.randint(0,4)
